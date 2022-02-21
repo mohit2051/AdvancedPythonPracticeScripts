@@ -1,7 +1,7 @@
 
 class Person:
 
-    def __init__(self, name, age, gender):
+    def __init__(self, name: str, age: int, gender: str) ->None:
 
         self.__name = name
         self.__age = age
